@@ -25,4 +25,4 @@ app.use("/api/users", usersRoute);
 app.use("/api/hotels", hotelsRoute);
 app.use("/api/rooms", roomsRoute);
 
-app.listen(4000 || process.env.PORT, () => {console.log("Connected")});
+app.listen(process.env.PORT, () => {console.log("Connected")});
